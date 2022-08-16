@@ -27,19 +27,14 @@ const Services = () => {
         <span style={{ color: darkMode ? 'white' : '' }}>My Awesome</span>
         <span>services</span>
         <spane>
-          The most popular services are{' '}
-          <strong style={{ color: 'black' }}>
-            Development , Architecture design, Testing.
-          </strong>
+          The most popular services are Development , Architecture design,
+          Testing.
           <br />
           {/* <strong style={{ color: 'black' }}>
             Development , Architecture design, Testing.
           </strong> */}
-          Designs and Develops Custom{' '}
-          <strong style={{ color: 'black' }}>
-            {' '}
-            Software applications, Frameworks, and Tools.
-          </strong>{' '}
+          Designs and Develops Custom Software applications, Frameworks, and
+          Tools.
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
